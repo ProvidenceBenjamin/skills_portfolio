@@ -135,6 +135,11 @@ nav #check {
   }
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -204,30 +209,111 @@ nav #check {
   padding-bottom: 100px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
+.one #b {
+  text-decoration: none;
+}
+.one #a {
+  text-decoration: none;
+}
 .one h2 {
   padding: 20px 0;
 }
 .one .item {
-  background-image: url(./img/845655bc-f716-42e7-9b18-074b1e06dcbe.jpg);
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-image: url(./img/Frame\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
   width: 100%;
   margin: 20px 0;
   margin: auto;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.one .item img {
+.one .item a .item {
+  background-image: url(./img/Frame\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  margin: 20px 0;
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.one .item a .items {
+  background-image: url(./img/Frame\ 1.png);
   -o-object-fit: cover;
      object-fit: cover;
-  display: flex;
-  width: 60%;
-  height: 25vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-position: center;
+  width: 100%;
+  margin: 20px 0;
   margin: auto;
-  padding-top: 30px;
-  margin-bottom: 40px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.one .item a .itemer {
+  background-image: url(./img/Frame\ 3.png);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin: 20px 0;
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.one .item a .itemer a {
+  text-decoration: none;
+}
+.one .items {
+  background-image: url(./img/Frame\ 1.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-position: center;
+  width: 100%;
+  margin: 20px 0;
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.one .itemer {
+  background-image: url(./img/Frame\ 3.png);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin: 20px 0;
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .one h3 {
   display: flex;
@@ -309,78 +395,129 @@ nav #check {
   text-decoration: underline;
 }
 
-.three {
-  background-color: black;
+.skills {
+  background-color: #2c3e50;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.skills h2 {
   color: white;
-  padding: 4px;
-  padding: 20px;
-  margin-left: 5px;
+  padding-bottom: 20px;
+}
+.skills h2 {
   text-align: center;
 }
-.three #card-area {
-  padding: 20px 0;
+.skills h5 {
+  position: absolute;
+  bottom: 0px;
 }
-.three #card-area .wrapper {
-  padding: 10px;
-}
-.three #card-area .wrapper .box-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.three #card-area .wrapper .box-area .box {
-  width: 100%;
+.skills .profencies {
   margin-bottom: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background-image: url(./img/proficiency.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
   position: relative;
 }
-.three #card-area .wrapper .box-area .box .img {
+.skills .profencies .black {
+  z-index: 2;
+  height: 30px;
   width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-  border-radius: 36px;
-  transition: transform 0.3s ease-in-out;
-}
-.three #card-area .wrapper .box-area .box h2 {
-  font-size: 20px;
-  margin-top: 10px;
-}
-.three #card-area .wrapper .box-area .box .overlay {
+  background-color: black;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
-  border-radius: 10px;
-  overflow: hidden;
+  bottom: 0px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  padding: 10px;
-  text-align: center;
-  font-size: 16px;
-  transition: height 0.3s ease-in-out;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.three #card-area .wrapper .box-area .box .overlay h3 {
-  display: none;
+.skills .profencies .black h5 {
+  color: white;
 }
-.three #card-area .wrapper .box-area .box .overlay a {
-  margin-top: 10px;
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  background-color: white;
-  border-radius: 30px;
-  padding: 5px 15px;
+.skills .design {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background-image: url(./img/UX\ UI.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
 }
-.three #card-area .wrapper .box-area .box:hover .img {
-  transform: scale(0.9);
+.skills .design .black {
+  z-index: 2;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.three #card-area .wrapper .box-area .box:hover .overlay {
-  height: 100%;
+.skills .design .black h5 {
+  color: white;
+}
+.skills .development {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background-image: url(./img/dev\ 2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+.skills .development .black {
+  z-index: 2;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.skills .development .black h5 {
+  color: white;
+}
+.skills .marketing {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background-image: url(./img/Digital\ Marketing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+.skills .marketing .black {
+  z-index: 2;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.skills .marketing .black h5 {
+  color: white;
 }
 
 @media (min-width: 375px) {
@@ -639,24 +776,51 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding: 20px 0;
   }
   .one .item {
-    background-image: url(./img/845655bc-f716-42e7-9b18-074b1e06dcbe.jpg);
-    -o-object-fit: cover;
-       object-fit: cover;
+    background-image: url(./img/Frame\ 2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
     width: 100%;
     margin: 20px 0;
     margin: auto;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .one .item img {
+  .one .items {
+    background-image: url(./img/Frame\ 1.png);
     -o-object-fit: cover;
        object-fit: cover;
-    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+    width: 100%;
+    margin: 20px 0;
     margin: auto;
-    padding-top: 30px;
-    margin-bottom: 40px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .one .itemer {
+    background-image: url(./img/Frame\ 3.png);
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 20px 0;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .one h3 {
     display: flex;
@@ -886,29 +1050,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .one h2 {
     padding: 20px 0;
   }
-  .one .item {
-    background-image: url(./img/845655bc-f716-42e7-9b18-074b1e06dcbe.jpg);
-    -o-object-fit: cover;
-       object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    margin: 20px 0;
-    margin: auto;
-    border-radius: 30px;
-  }
-  .one .item img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    display: flex;
-    width: 60%;
-    height: 30vh;
-    margin: auto;
-    padding-top: 30px;
-    margin-bottom: 40px;
-    border-radius: 30px;
-  }
   .one h3 {
     display: flex;
     justify-content: center;
@@ -968,88 +1109,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding: 0px 20px;
     border-radius: 20px;
     height: 15px;
-  }
-  .three {
-    background-color: black;
-    color: white;
-  }
-  .three .container {
-    padding: 50px 0;
-  }
-  .three .container .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .three .container .row #card-area .wrapper .box-area {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .three .container .row #card-area .wrapper .box-area .box {
-    width: calc(25% - 20px); /* Adjust the width as needed */
-    margin-bottom: 60px;
-    margin-right: 20px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px goldenrod;
-  }
-  .three .container .row #card-area .wrapper .box-area .box .img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s;
-    border-radius: 36px;
-  }
-  .three .container .row #card-area .wrapper .box-area .box h2 {
-    text-align: center;
-  }
-  .three .container .row #card-area .wrapper .box-area .box .overlay {
-    height: 0;
-    width: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.26));
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
-  }
-  .three .container .row #card-area .wrapper .box-area .box .overlay h3 {
-    font-weight: 500;
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    font-size: 30px;
-    letter-spacing: 1px;
-  }
-  .three .container .row #card-area .wrapper .box-area .box .overlay p {
-    font-weight: 150;
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-  }
-  .three .container .row #card-area .wrapper .box-area .box .overlay a {
-    margin-top: 10px;
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-    background-color: white;
-    border-radius: 30px;
-    text-align: center;
-    padding: 5px 15px;
-  }
-  .three .container .row #card-area .wrapper .box-area .box .img:hover {
-    transform: scale(1.2);
-  }
-  .three .container .row #card-area .wrapper .box-area .box:hover .overlay {
-    height: 100%;
   }
   .zero {
     margin-top: 50px;
