@@ -213,7 +213,12 @@ img{
 		padding: 20px 0;
 	}
 	.item{
+<<<<<<< HEAD
 		background-image: url(./img/Frame\ 2.png);
+=======
+		background-image: url(./img/UX\ UI\ 1.jpg);
+		object-fit: cover;
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
 		background-size: cover; 
 		background-repeat: no-repeat;
 		background-position: center;
@@ -225,6 +230,7 @@ img{
 		  display: flex;
 		  flex-direction: column;
 		  justify-content: center;
+<<<<<<< HEAD
 		  a{
 			.item{
 				background-image: url(./img/Frame\ 2.png);
@@ -283,6 +289,14 @@ img{
 		background-size: cover; 
 		background-repeat: no-repeat;
 		height: 70vh;
+=======
+	}
+	.items{
+		background-image: url(./img/dev\ 1.jpg);
+		object-fit: cover;
+		background-size: cover; 
+		background-repeat: no-repeat;
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
 		background-position: center;
 		 width: 100%; 
 		 margin: 20px 0; 
@@ -291,6 +305,35 @@ img{
 		  display: flex;
 		  flex-direction: column;
 		  justify-content: center;
+<<<<<<< HEAD
+=======
+	}
+	.itemer{
+		background-image: url(./img/Dig\ Marketer\ 3.jpg);
+		width: 100%;
+		object-fit: cover;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-position: center;
+		 width: 100%; 
+		 margin: 20px 0; 
+		 margin: auto;
+		  border-radius: 30px;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+	}
+	
+	.item img{
+		object-fit: cover; 
+		display: flex; 
+		width: 60%; 
+		height: 25vh; 
+		margin: auto; 
+		padding-top: 30px;
+		 margin-bottom: 40px; 
+		 border-radius: 30px;
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
 	}
 	.itemer{
 		background-image: url(./img/Frame\ 3.png);
@@ -579,7 +622,10 @@ img{
 			border-bottom-right-radius: 20px;
 			h5{color: white;}
 		}
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
 	}
 	.marketing{
 		margin-bottom: 20px;
@@ -605,7 +651,10 @@ img{
 			border-bottom-right-radius: 20px;
 			h5{color: white;}
 		}
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
 	}
 }
 
@@ -822,6 +871,7 @@ nav{
 	}
 	.one{position: relative;  margin: 0 20px; display: flex; text-align: center; border-radius: 30px; border: 1px solid goldenrod; border-bottom: none; padding-top: 20px;  background-color: #ffffff; padding-bottom: 100px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 		h2{padding: 20px 0;}
+<<<<<<< HEAD
 
 		.item{
 			background-image: url(./img/Frame\ 2.png);
@@ -871,6 +921,15 @@ nav{
 		
 		
 		
+=======
+		
+		.item img{
+			object-fit: cover; display: flex;  margin: auto; padding-top: 30px; margin-bottom: 40px; border-radius: 30px;
+		}
+		.items{
+			object-fit: cover; display: flex;  margin: auto; padding-top: 30px; margin-bottom: 40px; border-radius: 30px;
+		}
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
 		h3{
 			display: flex; margin-top: 25px; justify-content: center; font-family:sans-serif; font-weight: bold; font-size: 20px;
 		}
@@ -992,6 +1051,12 @@ z-index: 10000;}
 		   padding-bottom: 100px; 
 		   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
    h2{padding: 20px 0;}
+<<<<<<< HEAD
+=======
+   .item{
+	    object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; margin: 20px 0; margin: auto; border-radius: 30px; 
+   }
+>>>>>>> 2aeb1be5bf229775cf63f4a6d7d385ccc59c6959
    
    
    
