@@ -129,6 +129,9 @@ nav{
 	z-index: 1000;
 	 }  
 }
+img{
+	object-fit: cover;
+}
 .hero{
 	 display: flex; 
 	 justify-content: center; 
@@ -204,8 +207,7 @@ nav{
 		padding: 20px 0;
 	}
 	.item{
-		
-		background-image: url(./img/845655bc-f716-42e7-9b18-074b1e06dcbe.jpg); 
+		background-image: url(./img/UX\ UI\ 1.jpg);
 		object-fit: cover;
 		background-size: cover; 
 		background-repeat: no-repeat;
@@ -213,7 +215,40 @@ nav{
 		 margin: 20px 0; 
 		 margin: auto;
 		  border-radius: 30px;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
 	}
+	.items{
+		background-image: url(./img/dev\ 1.jpg);
+		object-fit: cover;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-position: center;
+		 width: 100%; 
+		 margin: 20px 0; 
+		 margin: auto;
+		  border-radius: 30px;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+	}
+	.itemer{
+		background-image: url(./img/Dig\ Marketer\ 3.jpg);
+		width: 100%;
+		object-fit: cover;
+		background-size: cover; 
+		background-repeat: no-repeat;
+		background-position: center;
+		 width: 100%; 
+		 margin: 20px 0; 
+		 margin: auto;
+		  border-radius: 30px;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+	}
+	
 	.item img{
 		object-fit: cover; 
 		display: flex; 
@@ -314,94 +349,211 @@ nav{
 	#y:hover{text-decoration: underline;}
 }
 
-.three {
-    background-color: black;
-    color: white;
-    padding: 4px;
-	padding: 20px;
-	margin-left: 5px;
-	text-align: center;
+// .three {
+//     background-color: black;
+//     color: white;
+//     padding: 4px;
+// 	padding: 20px;
+// 	margin-left: 5px;
+// 	text-align: center;
 
-    #card-area {
-        padding: 20px 0;
+//     #card-area {
+//         padding: 20px 0;
 
-        .wrapper {
-            padding: 10px;
+//         .wrapper {
+//             padding: 10px;
 
-            .box-area {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+//             .box-area {
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-items: center;
 
-                .box {
-                    width: 100%;
-                    margin-bottom: 20px;
-                    text-align: center;
-                    position: relative;
+//                 .box {
+//                     width: 100%;
+//                     margin-bottom: 20px;
+//                     text-align: center;
+//                     position: relative;
 
-                    .img {
-                        width: 100%;
-                        height: auto;
-                        display: block;
-                        margin: auto;
-                        border-radius: 36px;
+//                     .img {
+//                         width: 100%;
+//                         height: auto;
+//                         display: block;
+//                         margin: auto;
+//                         border-radius: 36px;
 						
-                        transition: transform 0.3s ease-in-out;
-                    }
+//                         transition: transform 0.3s ease-in-out;
+//                     }
 
-                    h2 {
-                        font-size: 20px;
-                        margin-top: 10px;
-                    }
+//                     h2 {
+//                         font-size: 20px;
+//                         margin-top: 10px;
+//                     }
 
-                    .overlay {
-                        position: absolute;
-                        left: 0;
-                        bottom: 0;
-                        width: 100%;
-                        height: 0;
-                        background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
-                        border-radius: 10px;
-                        overflow: hidden;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
-                        padding: 10px;
-                        text-align: center;
-                        font-size: 16px;
-                        transition: height 0.3s ease-in-out;
+//                     .overlay {
+//                         position: absolute;
+//                         left: 0;
+//                         bottom: 0;
+//                         width: 100%;
+//                         height: 0;
+//                         background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+//                         border-radius: 10px;
+//                         overflow: hidden;
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         flex-direction: column;
+//                         padding: 10px;
+//                         text-align: center;
+//                         font-size: 16px;
+//                         transition: height 0.3s ease-in-out;
 
-                        h3 {
-                            display: none;
-                        }
+//                         h3 {
+//                             display: none;
+//                         }
 
-                        // p {
-                        //     display: none;
-                        // }
+//                         // p {
+//                         //     display: none;
+//                         // }
 
-                        a {
-                            margin-top: 10px;
-                            color: black;
-                            text-decoration: none;
-                            font-size: 16px;
-                            background-color: white;
-                            border-radius: 30px;
-                            padding: 5px 15px;
-                        }
-                    }
+//                         a {
+//                             margin-top: 10px;
+//                             color: black;
+//                             text-decoration: none;
+//                             font-size: 16px;
+//                             background-color: white;
+//                             border-radius: 30px;
+//                             padding: 5px 15px;
+//                         }
+//                     }
 
-                    &:hover .img {
-                        transform: scale(0.9);
-                    }
+//                     &:hover .img {
+//                         transform: scale(0.9);
+//                     }
 
-                    &:hover .overlay {
-                        height: 100%;
-                    }
-                }
-            }
-        }
-    }
+//                     &:hover .overlay {
+//                         height: 100%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.skills{
+	
+	h2{color: white;padding-bottom: 20px;}
+	background-color: #2c3e50;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	h2{
+		text-align: center;
+	}
+	h5{
+		position: absolute;
+		bottom: 0px;
+		
+	}
+	.profencies{
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		height: 70vh;
+		background-image: url(./img/proficiency.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		position: relative;
+		.black{
+			z-index: 2;
+			height: 30px;
+			width: 100%;
+			background-color: black;
+			position: absolute;
+			bottom: 0px;
+			display: flex;
+			justify-content: center;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			h5{color: white;}
+		}
+		
+	}
+	.design{
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		height: 70vh;
+		background-image: url(./img/UX\ UI.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		position: relative;
+		.black{
+			z-index: 2;
+			height: 30px;
+			width: 100%;
+			background-color: black;
+			position: absolute;
+			bottom: 0px;
+			display: flex;
+			justify-content: center;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			h5{color: white;}
+		}
+	}
+	.development{
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		height: 70vh;
+		background-image: url(./img/dev\ 2.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		position: relative;
+		.black{
+			z-index: 2;
+			height: 30px;
+			width: 100%;
+			background-color: black;
+			position: absolute;
+			bottom: 0px;
+			display: flex;
+			justify-content: center;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			h5{color: white;}
+		}
+	}
+	.marketing{
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		height: 70vh;
+		background-image: url(./img/Digital\ Marketing.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 20px;
+		position: relative;
+		.black{
+			z-index: 2;
+			height: 30px;
+			width: 100%;
+			background-color: black;
+			position: absolute;
+			bottom: 0px;
+			display: flex;
+			justify-content: center;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			h5{color: white;}
+		}
+	}
 }
 
 @media (min-width: 375px) {
@@ -617,10 +769,11 @@ nav{
 	}
 	.one{position: relative;  margin: 0 20px; display: flex; text-align: center; border-radius: 30px; border: 1px solid goldenrod; border-bottom: none; padding-top: 20px;  background-color: #ffffff; padding-bottom: 100px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 		h2{padding: 20px 0;}
-		.item{
-			background-image: url(./img/845655bc-f716-42e7-9b18-074b1e06dcbe.jpg); object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 100%; margin: 20px 0; margin: auto; border-radius: 30px;
-		}
+		
 		.item img{
+			object-fit: cover; display: flex;  margin: auto; padding-top: 30px; margin-bottom: 40px; border-radius: 30px;
+		}
+		.items{
 			object-fit: cover; display: flex;  margin: auto; padding-top: 30px; margin-bottom: 40px; border-radius: 30px;
 		}
 		h3{
@@ -745,7 +898,7 @@ z-index: 10000;}
 		   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
    h2{padding: 20px 0;}
    .item{
-	   background-image: url(./img/845655bc-f716-42e7-9b18-074b1e06dcbe.jpg); object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; margin: 20px 0; margin: auto; border-radius: 30px; 
+	    object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; margin: 20px 0; margin: auto; border-radius: 30px; 
    }
    
    .item img{
@@ -795,106 +948,118 @@ z-index: 10000;}
    
    
 }
-.three {
-    background-color: black;
-    color: white;
+// .three {
+//     background-color: black;
+//     color: white;
 
-    .container {
-        padding: 50px 0;
+//     .container {
+//         padding: 50px 0;
 
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+//         .row {
+//             display: flex;
+//             flex-wrap: wrap;
+//             justify-content: center;
 
-            #card-area {
-                .wrapper {
+//             #card-area {
+//                 .wrapper {
 
-                    .box-area {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: space-between;
+//                     .box-area {
+//                         display: flex;
+//                         flex-wrap: wrap;
+//                         justify-content: space-between;
 						
 
-                        .box {
-                            width: calc(25% - 20px); /* Adjust the width as needed */
-                            margin-bottom: 60px;
-                            margin-right: 20px;
-                            position: relative;
-                            overflow: hidden;
-                            border-radius: 10px;
-                            box-shadow: 5px 5px 15px goldenrod;
+//                         .boxe {
+// 							height: 60vh;
+// 							background-image: url(./img/UX\ UI.jpg);
+// 							background-position: center;
+// 							background-repeat: no-repeat;
+// 							background-size: cover;
+//                             width: calc(25% - 20px); /* Adjust the width as needed */
+//                             margin-bottom: 60px;
+//                             margin-right: 20px;
+//                             position: relative;
+//                             overflow: hidden;
+//                             border-radius: 10px;
+//                             box-shadow: 5px 5px 15px goldenrod;
 
-                            .img {
-                                width: 100%;
-                                height: auto;
-                                transition: transform 0.5s;
-                                border-radius: 36px;
-                            }
+//                             .img {
+//                                 width: 100%;
+//                                 height: auto;
+//                                 transition: transform 0.5s;
+//                                 border-radius: 36px;
+//                             }
 
-                            h2 {
-                                text-align: center;
-                            }
+//                             h2 {
+//                                 text-align: center;
+//                             }
 
-                            .overlay {
-                                height: 0;
-                                width: 100%;
-                                background: linear-gradient(transparent, rgba(0, 0, 0, 0.26));
-                                border-radius: 10px;
-                                position: absolute;
-                                left: 0;
-                                bottom: 0;
-                                overflow: hidden;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                flex-direction: column;
-                                padding: 0 40px;
-                                text-align: center;
-                                font-size: 14px;
-                                transition: height 0.5s;
+//                             .overlay {
+//                                 height: 0;
+//                                 width: 100%;
+//                                 background: linear-gradient(transparent, rgba(0, 0, 0, 0.26));
+//                                 border-radius: 10px;
+//                                 position: absolute;
+//                                 left: 0;
+//                                 bottom: 0;
+//                                 overflow: hidden;
+//                                 display: flex;
+//                                 align-items: center;
+//                                 justify-content: center;
+//                                 flex-direction: column;
+//                                 padding: 0 40px;
+//                                 text-align: center;
+//                                 font-size: 14px;
+//                                 transition: height 0.5s;
 
-                                h3 {
-                                    font-weight: 500;
-                                    margin-bottom: 5px;
-                                    font-family: sans-serif;
-                                    font-size: 30px;
-                                    letter-spacing: 1px;
-                                }
-								p{
-									font-weight: 150;
-									font-size: 15px;
-									letter-spacing: 1px;
-									font-family: sans-serif;
+//                                 h3 {
+//                                     font-weight: 500;
+//                                     margin-bottom: 5px;
+//                                     font-family: sans-serif;
+//                                     font-size: 30px;
+//                                     letter-spacing: 1px;
+//                                 }
+// 								p{
+// 									font-weight: 150;
+// 									font-size: 15px;
+// 									letter-spacing: 1px;
+// 									font-family: sans-serif;
 
-								}
+// 								}
 
-                                a {
-                                    margin-top: 10px;
-                                    color: black;
-                                    text-decoration: none;
-                                    font-size: 14px;
-                                    background-color: white;
-                                    border-radius: 30px;
-                                    text-align: center;
-                                    padding: 5px 15px;
-                                }
-                            }
+//                                 a {
+//                                     margin-top: 10px;
+//                                     color: black;
+//                                     text-decoration: none;
+//                                     font-size: 14px;
+//                                     background-color: white;
+//                                     border-radius: 30px;
+//                                     text-align: center;
+//                                     padding: 5px 15px;
+//                                 }
+//                             }
 
-                            .img:hover {
-                                transform: scale(1.2);
-                            }
+//                             .img:hover {
+//                                 transform: scale(1.2);
+//                             }
 
-                            &:hover .overlay {
-                                height: 100%;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                             &:hover .overlay {
+//                                 height: 100%;
+//                             }
+//                         }
+// 						.box{
+// 							height: 60vh;
+// 							background-image: url(./img/proficiency.jpg);
+// 							background-position: center;
+// 							background-repeat: no-repeat;
+// 							background-size: cover;
+// 						}
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 .zero{margin-top: 50px; 
 	padding-bottom: 30px;
    .up img{display: flex; 
